@@ -1,0 +1,255 @@
+#main-content {
+    padding: 30px;
+}
+.tk-container {
+
+    box-sizing: border-box;
+    padding:0 50px;
+}
+.js-pscroll {
+    position: relative;
+    overflow: hidden
+}
+
+.table100 .ps__rail-y {
+    width: 9px;
+    background-color: transparent;
+    opacity: 1!important;
+    right: 5px
+}
+
+.table100 .ps__rail-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.table100 .ps__rail-y .ps__thumb-y {
+    width: 100%;
+    right: 0;
+    background-color: transparent;
+    opacity: 1!important
+}
+
+.table100 .ps__rail-y .ps__thumb-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.limiter {
+    width: 1366px;
+    margin: 0 auto
+}
+
+.container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px
+}
+
+.wrap-table100 {
+    width: 1170px
+}
+
+.table100 {
+    background-color: #fff
+}
+
+table {
+    width: 100%
+}
+
+th,td {
+    font-weight: unset;
+    padding-right: 10px
+}
+
+.column1 {
+    width: 15%;
+    padding-left: 40px
+}
+
+.column2 {
+    width: 20%
+}
+
+.column3 {
+    width: 25%
+}
+
+.column4 {
+    width: 25%
+}
+
+.column5 {
+    width: 40%
+}
+
+.table100-head th {
+    padding-top: 18px;
+    padding-bottom: 18px
+}
+
+.table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.table100 {
+    position: relative;
+    padding-top: 60px
+}
+
+.table100-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.table100-body {
+    max-height: 450px;
+    overflow: auto
+}
+
+.table100.ver4 {
+    margin-right: -20px
+}
+
+.table100.ver4 .table100-head {
+    padding-right: 20px
+}
+
+.table100.ver4 th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #1a4978;
+    border-bottom: 2px solid #f2f2f2
+}
+
+.table100.ver4 .column1 {
+    padding-left: 7px
+}
+
+.table100.ver4 td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.4
+}
+
+.table100.ver4 .table100-body tr {
+    border-bottom: 1px solid #f2f2f2
+}
+#tbl-taikhoan {
+    background-color: #fff;
+}
+.table100.ver4 {
+    overflow: hidden
+}
+
+.table100.ver4 .table100-body {
+
+    padding-right: 20px;
+    padding-left: 10px;
+    background-color: #1a4978;
+}
+
+.table100.ver4 .ps__rail-y {
+    right: 0
+}
+
+.table100.ver4 .ps__rail-y::before {
+    background-color: #ebebeb
+}
+
+.table100.ver4 .ps__rail-y .ps__thumb-y::before {
+    background-color: #ccc
+}
+.tk-dstk--container {
+    overflow: hidden;
+    background-color: #1a4978;
+
+
+}
+.tk-tttk--label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-width: 100px;
+}
+.tk-tttl--input {
+    margin: 10px 0;
+}
+.tk-tttk--input_element {
+    width: 50%;
+    height: 30px;
+    border: solid 0.5px #3d3d3d;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.tk-tttk--content {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.tk-tttk-button--control,
+.tk-tttk-button--confirm {
+    display: flex;
+    justify-content: space-around;
+}
+.tk-tttk--button {
+
+    min-width: 100px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #1a4978;
+    color: #fff;
+}
+.tk-dst--heading {
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 700;
+}
+.tk-dstk--content {
+    padding-bottom: 10px;
+}
+.tk-tttk--container {
+    border: solid 4px #1a4978;
+    padding: 10px;
+}
+.tk-tttk--heading {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    margin-bottom: 10px;
+}

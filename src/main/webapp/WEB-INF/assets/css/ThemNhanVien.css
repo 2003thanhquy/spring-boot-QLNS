@@ -1,0 +1,131 @@
+h1 {
+    margin: 0;
+}
+.themnhanvien-container {
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.themnhanvien-excel--container {
+    border: solid 1px #1a4978;
+    border-radius: 4px;
+    overflow:hidden;
+    margin-bottom: 20px;
+}
+.tnv-excel--label {
+    background-color: #1a4978;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+}
+.themnhanvien-excel--image {
+    width: 150px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.themnhanvien-excel--image:hover {
+    opacity: 0.8;
+}
+.themnhanvien-excel--content {
+    display: inline-block;
+    margin: auto;
+}
+
+.themnhanvien-thucong--container {
+    border: solid 1px #1a4978;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.themnhanvien-thucong--header {
+    background-color: #1a4978;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+}
+.gioitinh-radiobutton {
+    display: inline-block;
+}
+.input-container {
+    margin: 10px;
+}
+.input-text, .gioitinh-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.input-text {
+    min-width: 150px;
+}
+.tnv-input {
+    width: 50%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: solid 0.5px #8f8d8d;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.btnHuy, .btnXacNhan {
+    display: block;
+    width: 90px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.4rem;
+}
+#imageContainer-avatar {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-avatar {
+   max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+.tnv-avatar--container {
+    border:solid 1px #0033c4;
+    border-radius: 4px;
+    padding: 20px 0;
+    height: 100%;
+}
+.tnv-avatar--label {
+    color: #1a4978;
+    text-align: center;
+    font-weight: 750;
+    display: block;
+}
+.tnv-btn--avatar {
+    display: block;
+    margin: auto;
+}
+#imageContainer-avatar {
+    margin: auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    margin-top:10px;
+}
+.themnhanvien-thucong--content {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.themnhanvien-thucong-form--container {
+
+}
+.button-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.element-input--container {
+    border:solid 1px #0033c4;
+    border-radius: 4px;
+    padding: 20px 30px;
+    height: 100%;
+}

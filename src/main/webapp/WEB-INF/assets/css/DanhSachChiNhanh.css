@@ -1,0 +1,258 @@
+h1 {
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Chiều rộng thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #949494; /* Màu nền của thanh cuộn */
+    border-radius: 6px; /* Bo tròn góc của thanh cuộn */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Màu nền của khu vực chứa nội dung thanh cuộn */
+}
+
+.js-pscroll {
+    position: relative;
+    overflow: hidden
+}
+.dscn-cn--content {
+    padding: 0 15px 15px 15px;
+}
+.dscn-cn--content .table100 .ps__rail-y {
+    width: 9px;
+    background-color: #fff;
+    opacity: 1!important;
+    right: 5px
+}
+
+.dscn-cn--content .table100 .ps__rail-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.dscn-cn--content .table100 .ps__rail-y .ps__thumb-y {
+    width: 100%;
+    right: 0;
+    background-color: transparent;
+    opacity: 1!important
+}
+
+.dscn-cn--content .table100 .ps__rail-y .ps__thumb-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.dscn-cn--content .container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px
+}
+
+.dscn-cn--content .wrap-table100 {
+    width: 1170px
+}
+
+.dscn-cn--content .table100 {
+    background-color: #fff;
+}
+
+.dscn-cn--content table {
+    width: 100%
+}
+
+.dscn-cn--content th,td {
+    font-weight: unset;
+    padding-right: 10px
+}
+
+.dscn-cn--content .column1 {
+    width: 20%;
+    padding-left: 40px
+}
+
+.dscn-cn--content .column2 {
+    width: 20%
+}
+
+.dscn-cn--content .column3 {
+    width: 20%
+}
+
+.dscn-cn--content .column4 {
+    width: 20%
+}
+
+.dscn-cn--content .column5 {
+    width: 20%
+}
+
+.dscn-cn--content .table100-head th {
+    /*padding-top: 18px;*/
+    /*padding-bottom: 18px*/
+}
+
+.dscn-cn--content .table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.dscn-cn--content .table100 {
+    position: relative;
+    padding-top: 60px
+}
+
+.dscn-cn--content .table100-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.dscn-cn--content .table100-body {
+    max-height: 500px;
+    overflow: auto
+}
+
+
+
+.dscn-cn--content .table100.ver2 .table100-head {
+
+}
+
+.dscn-cn--content .table100.ver2 th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #1a4978;
+
+}
+
+.dscn-cn--content .table100.ver2 td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.dscn-cn--content .table100.ver2 .table100-body tr {
+    border-bottom: 1px solid #f2f2f2
+}
+
+.dscn-cn--content .table100.ver2 {
+    overflow: hidden;
+
+}
+
+.dscn-cn--content .table100.ver2 .ps__rail-y {
+    right: 5px
+}
+
+.dscn-cn--content .table100.ver2 .ps__rail-y::before {
+    background-color: #ebebeb
+}
+
+.dscn-cn--content .table100.ver2 .ps__rail-y .ps__thumb-y::before {
+    background-color: #ccc
+}
+
+.dscn-cn--content .table100.ver3 {
+    background-color: #393939
+}
+
+.dscn-table-tr {
+    cursor: pointer;
+}
+.dscn-ttcn--content {
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    box-sizing: border-box;
+    padding: 20px;
+}
+.dscn--ttcn--input-container {
+    margin: 10px 0;
+    display: flex;
+}
+.dscn-ttcn-label-input {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    min-width: 130px;
+}
+.dscn-ttcn-input-element {
+    width: 50%;
+    height: 30px;
+    border: solid 0.5px #5e5e5e;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.dscn-ttcn--thaotac-button, .dscn-ttcn--confirm-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0;
+}
+.dscn-ttcn--button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.dscn-container {
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.dscn-cn--container {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #1a4978;
+}
+.dscn-cn--heading {
+    font-weight: 800;
+    background-color: #1a4978;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+.dscn--ttcn--heading {
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: #1a4978;
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+.dscn-ttcn--container {
+    border: solid 4px #1a4978;
+    padding: 20px;
+}
+.dscn-ttcn--button{
+    background-color: #1a4978;
+    color: #fff;
+    border: none;
+}

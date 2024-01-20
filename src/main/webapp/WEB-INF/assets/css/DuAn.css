@@ -1,0 +1,225 @@
+.js-pscroll {
+    position: relative;
+    overflow: hidden
+}
+
+.dsda-da--content .table100 .ps__rail-y {
+    width: 9px;
+    background-color: transparent;
+    opacity: 1!important;
+    right: 5px
+}
+
+.dsda-da--content .table100 .ps__rail-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.dsda-da--content .table100 .ps__rail-y .ps__thumb-y {
+    width: 100%;
+    right: 0;
+    background-color: transparent;
+    opacity: 1!important
+}
+
+.dsda-da--content .table100 .ps__rail-y .ps__thumb-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.dsda-da--content .container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px
+}
+
+.dsda-da--content .wrap-table100 {
+    width: 1170px
+}
+
+.dsda-da--content .table100 {
+    background-color: #fff
+}
+
+.dsda-da--content table {
+    width: 100%
+}
+
+.dsda-da--content th,td {
+    font-weight: unset;
+    padding-right: 10px
+}
+
+.dsda-da--content .column1 {
+    width: 20%;
+    padding-left: 40px
+}
+
+.dsda-da--content .column2 {
+    width: 26%
+}
+
+.dsda-da--content .column3 {
+    width: 22%
+}
+
+.dsda-da--content .column4 {
+    width: 19%
+}
+
+.dsda-da--content .column5 {
+    width: 13%
+}
+
+.dsda-da--content .table100-head th {
+    /*padding-top: 18px;*/
+    /*padding-bottom: 18px*/
+}
+
+.dsda-da--content .table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.dsda-da--content .table100 {
+    position: relative;
+}
+
+.dsda-da--content .table100-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+td {
+    cursor: pointer;
+}
+.dsda-da--content .table100-body {
+    max-height: 500px;
+    overflow: auto
+}
+
+.dsda-da--content .table100.ver1 th {
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    height: 40px;
+    background-color: #1a4978
+}
+
+.dsda-da--content .table100.ver1 td {
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4
+}
+
+.dsda-da--content .table100.ver1 .table100-body tr:nth-child(even) {
+    background-color: #e9f0f7;
+}
+
+.dsda-da--content .table100.ver1 {
+    overflow: hidden;
+
+}
+
+.dsda-da--content .table100.ver1 .ps__rail-y {
+    right: 5px
+}
+
+.dsda-da--content .table100.ver1 .ps__rail-y::before {
+    background-color: #ebebeb
+}
+
+.dsda-da--content .table100.ver1 .ps__rail-y .ps__thumb-y::before {
+    background-color: #ccc
+}
+.dsda-input--container {
+    display: flex;
+    margin: 10px 0;
+}
+.dsda-ttct--content {
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    box-sizing: border-box;
+    padding: 20px;
+}
+.dsda-input--label {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    min-width: 100px;
+}
+.dsda-input--element {
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 0.5px #5e5e5e;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.dsda-thaotac-button--container,
+.dsda-confirm-button--container
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.dsda-button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.dsda-button--container {
+    margin-top: 20px;
+}
+.dsda-sua-button {
+    color: #e0bd10;
+    border-color: #e0bd10;
+}
+.dsda-container {
+    padding: 30px;
+}
+.dsda-ttct--header {
+    color:#fff;
+    background-color: #1a4978;
+    padding: 20px 0;
+    margin: 0;
+}
+.dsda-da--header{
+    color: #fff;
+    background-color: #1a4978;
+    padding: 20px 0;
+    margin: 0;
+}
+.dsda-button {
+    background-color: #1a4978;
+    color: #fff;
+    border: none;
+}

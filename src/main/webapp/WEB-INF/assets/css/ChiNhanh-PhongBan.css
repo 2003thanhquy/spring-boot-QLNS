@@ -1,0 +1,328 @@
+.cnpb-container{
+    padding: 30px;
+}
+.cnpb-cn--content .js-pscroll {
+    position: relative;
+    overflow: hidden
+}
+
+.cnpb-cn--content .table100 .ps__rail-y {
+    width: 9px;
+    background-color: transparent;
+    opacity: 1!important;
+    right: 5px
+}
+
+.cnpb-cn--content .table100 .ps__rail-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.cnpb-cn--content .table100 .ps__rail-y .ps__thumb-y {
+    width: 100%;
+    right: 0;
+    background-color: transparent;
+    opacity: 1!important
+}
+
+.cnpb-cn--content .table100 .ps__rail-y .ps__thumb-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+
+.cnpb-cn--content .container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px
+}
+
+.cnpb-cn--content .wrap-table100 {
+    width: 1170px
+}
+
+.cnpb-cn--content .table100 {
+    background-color: #fff
+}
+
+.cnpb-cn--content table {
+    width: 100%
+}
+
+.cnpb-cn--content th,td {
+    font-weight: unset;
+    padding-right: 10px
+}
+
+.cnpb-cn--content .column1 {
+    width: 33%;
+    padding-left: 40px
+}
+
+.cnpb-cn--content .column2 {
+    width: 33%
+}
+
+.cnpb-cn--content .column3 {
+    width: 33%
+}
+
+
+.cnpb-cn--content .table100-head th {
+    padding-top: 18px;
+    padding-bottom: 18px
+}
+
+.cnpb-cn--content .table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.cnpb-cn--content .table100 {
+    position: relative;
+    padding-top: 60px
+}
+
+.cnpb-cn--content .table100-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.cnpb-cn--content .table100-body {
+    max-height: 500px;
+    overflow: auto
+}
+
+.cnpb-cn--content .table100.ver1 th {
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #1a4978
+}
+
+.cnpb-cn--content .table100.ver1 td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4
+}
+tr {
+    cursor: pointer;
+}
+.cnpb-cn--content .table100.ver1 .table100-body tr:nth-child(even) {
+    background-color: #e9f0f7;
+}
+
+.cnpb-cn--content .table100.ver1 {
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -o-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -ms-box-shadow: 0 0 40px 0 rgba(0,0,0,.15)
+}
+
+.cnpb-cn--content .table100.ver1 .ps__rail-y {
+    right: 5px
+}
+
+.cnpb-cn--content .table100.ver1 .ps__rail-y::before {
+    background-color: #ebebeb
+}
+
+.cnpb-cn--content .table100.ver1 .ps__rail-y .ps__thumb-y::before {
+    background-color: #ccc
+}
+
+
+
+
+
+
+.cnpb-pb--content .js-pscroll {
+    position: relative;
+    overflow: hidden
+}
+
+.cnpb-pb--content  .table100 .ps__rail-y {
+    width: 9px;
+    background-color: transparent;
+    opacity: 1!important;
+    right: 5px
+}
+
+.cnpb-pb--content  .table100 .ps__rail-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+.cnpb-pb--content  .table100 .ps__rail-y .ps__thumb-y {
+    width: 100%;
+    right: 0;
+    background-color: transparent;
+    opacity: 1!important
+}
+
+.cnpb-pb--content  .table100 .ps__rail-y .ps__thumb-y::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100% - 30px);
+    left: 0;
+    top: 15px
+}
+
+
+.cnpb-pb--content  .container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px
+}
+
+.cnpb-pb--content  .wrap-table100 {
+    width: 1170px
+}
+
+.cnpb-pb--content  .table100 {
+    background-color: #fff
+}
+
+.cnpb-pb--content  table {
+    width: 100%
+}
+
+.cnpb-pb--content  th,td {
+    font-weight: unset;
+    padding-right: 10px
+}
+
+.cnpb-pb--content  .column1 {
+    width: 35%;
+    padding-left: 40px
+}
+
+.cnpb-pb--content  .column2 {
+    width: 25%
+}
+
+.cnpb-pb--content  .column3 {
+    width: 25%
+}
+.cnpb-pb--content .column4 {
+    width: 15%;
+}
+
+.cnpb-pb--content  .table100-head th {
+    padding-top: 18px;
+    padding-bottom: 18px
+}
+
+.cnpb-pb--content  .table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.cnpb-pb--content  .table100 {
+    position: relative;
+    padding-top: 60px
+}
+
+.cnpb-pb--content  .table100-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.cnpb-pb--content  .table100-body {
+    max-height: 500px;
+    overflow: auto
+}
+
+.cnpb-pb--content  .table100.ver1 th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #1a4978
+}
+
+.cnpb-pb--content  .table100.ver1 td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4
+}
+
+.cnpb-pb--content  .table100.ver1 .table100-body tr:nth-child(even) {
+    background-color: #e9f0f7;
+}
+
+.cnpb-pb--content  .table100.ver1 {
+
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -o-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+    -ms-box-shadow: 0 0 40px 0 rgba(0,0,0,.15)
+}
+
+.cnpb-pb--content  .table100.ver1 .ps__rail-y {
+    right: 5px
+}
+
+.cnpb-pb--content  .table100.ver1 .ps__rail-y::before {
+    background-color: #ebebeb
+}
+
+.cnpb-pb--content  .table100.ver1 .ps__rail-y .ps__thumb-y::before {
+    background-color: #ccc
+}
+
+

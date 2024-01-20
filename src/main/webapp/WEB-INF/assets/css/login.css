@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+.login-container {
+    background-color: #f5d2bb;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image-avatar {
+    background-image: url(https://sangkienvicongdong.vn/upload/img/personnel/ong-tuan-ha.png);
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-content {
+    width: 400px;
+    height: 650px;
+    background-color: #01022f;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-heading--container {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.login-image--container {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+.login-icon {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.alert-danger {
+    background-color: #f582aa;
+    padding: 10px;
+}
+.alert-danger p {
+    color: #fa0202;
+}
+
+.input--element {
+    background-color: transparent;
+    color: #fff;
+    flex-grow: 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height: 50px;
+    padding-left: 10px;
+}
+.input--element:focus {
+    outline: none;
+}
+.input-element--container {
+    border-bottom: solid 3px #5b4c6e;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: #fff; /* Màu của placeholder */
+
+}
+.login-button--container {
+    margin-top: 50px;
+}
+.login-button {
+    width: 100%;
+    height: 50px;
+    background-color: #b08bac;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.login-button:hover {
+    background-color: #d6b0d2;
+}
+.login-heading--text h4 {
+    color: #fff;
+    text-align: center;
+}
+.login-heading--text p {
+    color:#494965;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+}
